@@ -5,13 +5,9 @@
   <link rel="stylesheet" href="animate.min.css">
   <link rel="stylesheet"
   href="https://cdn.jsdelivr.net/npm/animate.css@3.5.2/animate.min.css">
-  <link rel="stylesheet"
-  href="https://cdn.jsdelivr.net/npm/animate.css@3.5.2/animate.min.css"
-  integrity="sha384-OHBBOqpYHNsIqQy8hL1U+8OXf9hH6QRxi0+EODezv82DfnZoV7qoHAZDwMwEJvSw"
-  crossorigin="anonymous">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
   <link href="https://fonts.googleapis.com/css?family=Gloria+Hallelujah" rel="stylesheet">
-  <link rel="stylesheet" href="./style/index.css">
+  <link rel="stylesheet" href="./style/app.css">
   <title>HELLO TODO</title>
 </head>
 
@@ -38,37 +34,36 @@
     </header>
 
     <main>
-      <p>Choose your activity: </p>
+      <div class="container">
+        <p>Choose your activity: </p>
 
-      <form>
-        <input class="input1" type="text" name="live coding" placeholder="live coding">
-        <button type="button" class="btn btn-outline-success">submit</button>
-      </form>
+        <form>
+          <input class="input1" type="text" name="live coding" placeholder="live coding">
+          <button type="button" class="btn btn-outline-success">submit</button>
+        </form>
 
-      <section id="output">
+        <section id="output">
 
-        <div class="delete-button">
-            Live coding
-          <button class="delete">X</button>
-        </div>
+          <div class="delete-button">
+              Live coding
+            <button class="delete">X</button>
+          </div>
 
-        <div class="delete-button">
-            Evaluation
-          <button class="delete">X</button>
-        </div>
+          <div class="delete-button">
+              Evaluation
+            <button class="delete">X</button>
+          </div>
 
-        <div class="delete-button">
-            Final project
-          <button class="delete">X</button>
+          <div class="delete-button">
+              Final project
+            <button class="delete">X</button>
+          </div>
+        </section>
       </div>
-
-      </section>
-
     </main>
-    <hr>
 
     <footer>
-      <div class="animated swing">
+      <div>
         <small>copyright 2018 &copy; <b>Impact Byte<b></small>
       </div>
     </footer>

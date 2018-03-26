@@ -18,23 +18,12 @@ nav a:hover{
   font-style: oblique;
 }
 .continer{
-  display: flex;
-  justify-content:center;
-  align-items:flex-start;
+  display:flex;
+  justify-content: center;
+  align-items: stretch;
 }
 .item{
   font-family: 'Josefin Slab', serif;
-}
-.item1{
-  font-family: 'Josefin Slab', serif;
-}
-.continer1{
-  display: flex;
-  justify-content: center;
-}
-.continer2{
-  display: flex;
-  justify-content: center;
 }
 footer{
   background-color: rgb(26, 221, 152);
