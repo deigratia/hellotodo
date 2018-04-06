@@ -11,8 +11,8 @@ const showList = function(){
     var create = document.createElement('div')
     create.id = index;
     create.innerHTML =`<span>${data}</span>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
-    <button class="btn btn-outline-light" onclick="deleteTodo(${index})">Delete</button>&nbsp|
-    <button class="btn btn-outline-light" onclick="editTodo(${index})">Edit</i><b>`;
+    <b><i onclick="deleteTodo(${index})">Delete</i><b>&nbsp|
+    <b><i onclick="editTodo(${index})">Edit</i><b>`;
     outputText.appendChild(create)
   })
 }
