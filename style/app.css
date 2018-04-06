@@ -18,9 +18,14 @@ nav a:hover{
   font-style: oblique;
 }
 .container{
-  display: inline-grid;
+  display:flex;
   justify-content:center;
 }
+.output1{
+  display: flex;
+  justify-content: center;
+}
+
 #output {
   border-style: solid;
   border-style: inset;
