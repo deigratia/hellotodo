@@ -7,15 +7,18 @@ h1{
   font-family: 'Gloria Hallelujah', cursive;
 }
 header{
-  background-color: rgb(26, 221, 152);
+  background-color: rgb(99, 68, 68);
 }
 nav{
   text-align: center;
 }
 nav a:hover{
-  color: purple;
+  color: black;
   font-size: 20px;
   font-style: oblique;
+}
+main{
+  background-color: rgba(255, 249, 223, 0.97);
 }
 .continer{
   display:flex;
@@ -26,8 +29,8 @@ nav a:hover{
   font-family: 'Josefin Slab', serif;
 }
 footer{
-  background-color: rgb(26, 221, 152);
-  color: purple;
+  background-color: rgb(99, 68, 68);
+  color: white;
   font-size: 20px;
   font-style: oblique;
   text-align: center;
