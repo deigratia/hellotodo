@@ -52,5 +52,13 @@ const editTodo =function(index) {
   showList()
 }
 
-addButton.addEventListener("click", addTodo)
+//fungsi pencarian
+const searchTodo = function() {
+  var text = addButton2.value.toLowerCase()
+  var find = label.filter(word => word.toLowerCase().includes(text));
+  alert(find.join(', '))
+}
+
+addButton.addEventListener("submit", addTodo)
 addButton1.addEventListener("click", clearTodo)
+addButton2.addEventListener("click", searchTodo)
