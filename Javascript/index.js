@@ -59,6 +59,6 @@ const searchTodo = function() {
   alert(find.join(', '))
 }
 
-addButton.addEventListener("submit", addTodo)
+addButton.addEventListener("click", addTodo)
 addButton1.addEventListener("click", clearTodo)
 addButton2.addEventListener("click", searchTodo)
